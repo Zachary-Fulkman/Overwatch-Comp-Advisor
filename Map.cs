@@ -37,5 +37,7 @@ namespace Overwatch_2_Suggestions
     
     public class Map
     {
+        public MapName Name { get; set; }
+        public MapPlaystyle Playstyle { get; set; }
     }
 }
