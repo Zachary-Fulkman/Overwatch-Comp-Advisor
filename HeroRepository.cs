@@ -235,6 +235,172 @@ namespace Overwatch_2_Suggestions
                     PlaystyleTag = PlaystyleTag.Poke,
                     MapPreference = new List<string> { "Colosseo", "Esperanca", "New_Queen_Street", "Kings_Row", "Midtown", "Blizzard_World", "Rialto" }
                 },
+                new Hero
+                {
+                    Name = "Soldier_76",
+                    Role = Role.DPS,
+                    Counters = new List<string> { "Winston", "D.Va", "Zarya", "Ashe", "Sojourn", "Mei", "Genji", "Widowmaker", "Tracer", "Sombra", "Ana", "Moira", "Kiriko" },
+                    Synergies = new List<string> { "Sigma", "Reinhardt", "Ramattra", "Sojourn", "Freja", "Ashe", "Cassidy", "Ana", "Mercy", "Illari" },
+                    PlaystyleTag = PlaystyleTag.Poke,
+                    MapPreference = new List<string> { "Busan", "Nepal", "Oasis", "Circuit_Royal", "Dorado", "Havana", "Eichenwalde" }
+                },
+                new Hero
+                {
+                    Name = "Sombra",
+                    Role = Role.DPS,
+                    Counters = new List<string> { "Winston", "JunkerQueen", "Junkrat", "Phara", "Reaper", "Sombra", "Torbjorn", "Symmetra", "Venture", "Moria", "Brigitte" },
+                    Synergies = new List<string> { "Winston", "D.Va", "Wrecking_Ball", "Echo", "Junkrat", "Freja", "Reaper", "Tracer", "Genji", "Kiriko" },
+                    PlaystyleTag = PlaystyleTag.Dive,
+                    MapPreference = new List<string> { "Blizzard_World", "Hoolywood", "Esperanca", "Suravasa", "Route_66", "Circuit_Royal", "Samoa" }
+                },
+                new Hero
+                {
+                    Name = "Symmetra",
+                    Role = Role.DPS,
+                    Counters = new List<string> { "Winston", "Zarya", "Ramattra", "Ashe", "Reaper", "Sojourn", "Venture", "Phara", "Echo", "Soldier_76", "Mei", "Ana" },
+                    Synergies = new List<string> { "Zarya", "Mauga", "Orisa", "Reaper", "Bastion", "Torbjorn", "Mei", "Mercy", "Kiriko", "Moira" },
+                    PlaystyleTag = PlaystyleTag.Brawl,
+                    MapPreference = new List<string> { "Rialto", "Junkertown", "Suravasa", "Blizzard_World", "Midtown", "Kings_Row", "Echenwalde" }
+                },
+                new Hero
+                {
+                    Name = "Torbjorn",
+                    Role = Role.DPS,
+                    Counters = new List<string> { "D.Va", "Ramattra", "Zarya", "Orisa", "Ashe", "Bastion", "Reaper", "Genji", "Sombra", "Venture", "Ana", "Kiriko", "Baptiste" },
+                    Synergies = new List<string> { "Sigma", "Ramattra", "Reinhardt", "Freja", "Ashe", "Bastion", "Symmetra", "Sojourn", "Echo", "Mercy" },
+                    PlaystyleTag = PlaystyleTag.Poke,
+                    MapPreference = new List<string> { "Ilios", "Rialto", "Dorado", "Blizzard_World", "Hollywood", "Kings_Row", "Paraiso" }
+                },
+                new Hero
+                {
+                    Name = "Tracer",
+                    Role = Role.DPS,
+                    Counters = new List<string> { "D.Va", "Winston", "Wrecking_Ball", "Torbjorn", "Symmetra", "Mei", "Reaper", "Venture", "Moira", "Brigitte", "Illari" },
+                    Synergies = new List<string> { "Winston", "D.Va", "Wrecking_Ball", "Genji", "Sombra", "Junkrat", "Venture", "Echo", "Lucio", "Moira" },
+                    PlaystyleTag = PlaystyleTag.Dive,
+                    MapPreference = new List<string> { "Busan", "Oasis", "Havana", "Shambali_Monastery", "Watchpoint_Gibraltar", "Suravasa", "Blizzard_World" }
+                },
+                new Hero
+                {
+                    Name = "Venture",
+                    Role = Role.DPS,
+                    Counters = new List<string> { "Orisa", "Ramattra", "Roadhog", "Bastion", "Torbjorn", "Symmetra", "Echo", "Phara", "Sombra", "Mei", "Reaper", "Ana", "Moira" },
+                    Synergies = new List<string> { "Winston", "D.Va", "Wrecking_Ball", "Echo", "Genji", "Tracer", "Sombra", "Ana", "Lucio", "Mercy" },
+                    PlaystyleTag = PlaystyleTag.Dive,
+                    MapPreference = new List<string> { "Numbani", "Paraiso", "New_Queen_Street", "Blizzard_World", "Hollywood", "New_Junk_City", "Oasis" }
+                },
+                new Hero
+                {
+                    Name = "WidowMaker",
+                    Role = Role.DPS,
+                    Counters = new List<string> { "Winston", "D.Va", "Wrecking_Ball", "Genji", "Sombra", "Tracer", "Venture", "Reaper", "Echo", "Freja", "Moira", "Juno" },
+                    Synergies = new List<string> { "Ashe", "Bastion", "Hanzo", "Pharah", "Sojourn", "Soldier_76", "Illari" },
+                    PlaystyleTag = PlaystyleTag.Poke,
+                    MapPreference = new List<string> { "Ilios", "Busan", "Circuit_Royal", "Havana", "Blizzard_World", "Kings_Row", "Paraiso" }
+                },
+                //DPS End
+
+                //Support
+                new Hero
+                {
+                    Name = "Ana",
+                    Role = Role.Support,
+                    Counters = new List<string> { "Winston", "D.Va", "Doomfist", "JunkerQueen", "Freja", "Ashe", "Echo", "Tacer", "Venture", "Genji", "Sombra", "Sojourn", "Kiriko" },
+                    Synergies = new List<string> { "Roadhog", "Reinhardt", "Sigma", "Bastion", "Reaper", "Hanzo", "Mei", "Sojourn", "Lifeweaver", "Kiriko" },
+                    PlaystyleTag = PlaystyleTag.Poke,
+                    MapPreference = new List<string> { "Nepal", "Havana", "Route_66", "Watchpoint_Gibraltar", "Suravasa", "Blizzard_World", "Hollywood" }
+                },
+                new Hero
+                {
+                    Name = "Baptiste",
+                    Role = Role.Support,
+                    Counters = new List<string> { "Winston", "Zarya", "Orisa", "Freja", "Widowmaker", "Bastion", "Echo", "Mei", "Reaper", "Sombra", "Tracer", "Moira", "Baptiste" },
+                    Synergies = new List<string> { "Reinhardt", "Rammatra", "Orisa", "Mauga", "Sojourn", "Soldier_76", "Junkrat", "Lucio", "Kiriko", "Illari" },
+                    PlaystyleTag = PlaystyleTag.Poke,
+                    MapPreference = new List<string> { "Numbani", "Kings_Row", "Hollywood", "Dorado", "Havana", "Route_66", "Lijiang_Tower" }
+                },
+                new Hero
+                {
+                    Name = "Brigitte",
+                    Role = Role.Support,
+                    Counters = new List<string> { "Winston", "Ramattra", "Zarya", "Bastion", "Junkrat", "Phara", "Freja", "Echo", "Reaper", "Torbjorn", "Ana", "Moria", "Juno" },
+                    Synergies = new List<string> { "Reinhardt", "Rammatra", "Roadhog", "JunkerQueen", "Lucio", "Juno", "Reaper", "Junkrat", "Bastion", "Venture" },
+                    PlaystyleTag = PlaystyleTag.Brawl,
+                    MapPreference = new List<string> { "Echenwalde", "Lijiang_Tower", "Nepal", "Oasis", "Dorado", "Shambali_Monastery", "New_Junk_City" }
+                },
+                new Hero
+                {
+                    Name = "Illari",
+                    Role = Role.Support,
+                    Counters = new List<string> { "Winston", "D.Va", "Wrecking_Ball", "Venture", "Tracer", "Sombra", "Genji", "mei", "Bastion", "Ashe", "Freja", "Moira", "Kiriko" },
+                    Synergies = new List<string> { "Sigma", "Roadhog", "Ramattra", "Ashe", "Freja", "Bastion", "Widowmaker", "Hanzo", "Sojourn", "Baptiste" },
+                    PlaystyleTag = PlaystyleTag.Poke,
+                    MapPreference = new List<string> { "Lijiang_Tower", "Nepal", "Oasis", "Dorado", "Junkertown", "Route_66", "Havana" }
+                },
+                new Hero
+                {
+                    Name = "Juno",
+                    Role = Role.Support,
+                    Counters = new List<string> { "D.Va", "Winston", "Doomfist", "Echo", "Torbjorn", "Symmetra", "Sojourn", "Soldier_76", "Widowmaker", "Sombra", "Venture", "Moira", "Kiriko" },
+                    Synergies = new List<string> { "Ramattra", "Reinhardt", "Zarya", "Roadhog", "Reaper", "Junkrat", "Mei", "Cassidy", "Lucio", "Brigitte" },
+                    PlaystyleTag = PlaystyleTag.Brawl,
+                    MapPreference = new List<string> { "Rialto", "Kings_Row", "Blizzard_World", "EchenWalde", "Dorado", "Lijiang_Tower", "Numbani" }
+                },
+                new Hero
+                {
+                    Name = "Kiriko",
+                    Role = Role.Support,
+                    Counters = new List<string> { "Winston", "D.Va", "Doomfist", "Hazard", "Tracer", "Sombra", "Genji", "Reaper", "Sojourn", "Widowmaker", "Soldier_76", "Kiriko", "Moira" },
+                    Synergies = new List<string> { "D.Va", "Winston", "Roadhog", "Orisa", "Mauga", "Reaper", "Ashe", "Bastion", "Ana", "Moria" },
+                    PlaystyleTag = PlaystyleTag.Hybrid,
+                    MapPreference = new List<string> { "Kings_Row", "Hollywood", "Paraiso", "Midtown", "Dorado", "Havana", "Rialto" }
+                },
+                new Hero
+                {
+                    Name = "Lifeweaver",
+                    Role = Role.Support,
+                    Counters = new List<string> { "Winston", "Doomfist", "D.Va", "Wrecking_Ball", "Freja", "Ashe", "Sombra", "Phara", "Echo", "Widowmaker", "Venture", "Ana", "Moira" },
+                    Synergies = new List<string> { "Winston", "D.Va", "Doomfist", "Roadhog", "Ramattra", "Mauga", "Reaper", "Junkrat", "Kiriko", "Moira" },
+                    PlaystyleTag = PlaystyleTag.Hybrid,
+                    MapPreference = new List<string> { "Rialto", "Havana", "Blizzard_World", "Kings_Row", "Paraiso", "Midtown", "Numbani" }
+                },
+                new Hero
+                {
+                    Name = "Lucio",
+                    Role = Role.Support,
+                    Counters = new List<string> { "D.Va", "Winston", "Wrecking_Ball", "JunkerQueen", "Orisa", "Torbjorn", "Symmetra", "Phara", "Mei", "Reaper", "Ana", "Brigitte", "Moira" },
+                    Synergies = new List<string> { "Ramattra", "Reinhardt", "JunkerQueen", "Orisa", "Echo", "Genji", "Tracer", "Reaper", "Brigitte", "Venture" },
+                    PlaystyleTag = PlaystyleTag.Dive,
+                    MapPreference = new List<string> { "Kings_Row", "Colosseo", "Suravasa", "Rialto", "Ilios", "Lijiang_Tower", "Midtown" }
+                },
+                new Hero
+                {
+                    Name = "Mercy",
+                    Role = Role.Support,
+                    Counters = new List<string> { "D.Va", "Winston", "Freja", "Ashe", "Soldier_76", "Sojourn", "Torbjorn", "Symmetra", "Echo", "Widowmaker", "Sombra", "Moira", "Ana" },
+                    Synergies = new List<string> { "Sigma", "Ramattra", "Roadhog", "Ashe", "Feja", "Sojourn", "Echo", "Phara", "Reaper", "Kiriko" },
+                    PlaystyleTag = PlaystyleTag.Poke,
+                    MapPreference = new List<string> { "Blizzard_World", "Eichenwalde", "Kings_Row", "New_Junk_City", "Route_66", "Rialto", "Dorado" }
+                },
+                new Hero
+                {
+                    Name = "Moira",
+                    Role = Role.Support,
+                    Counters = new List<string> { "Zarya", "Roadhog", "D.Va", "Ashe", "Freja", "Bastion", "Mei", "Reaper", "Sojourn", "Soldier_76", "Ana", "Kiriko", "Zenyatta" },
+                    Synergies = new List<string> { "Winston", "D.Va", "Doomfist", "Hazard", "Tracer", "Sombra", "Genji", "Venture", "Lucio", "Lifeweaver" },
+                    PlaystyleTag = PlaystyleTag.Dive,
+                    MapPreference = new List<string> { "Kings_Row", "Suravasa", "Ilios", "Rialto", "Numbani", "Shambali_Monastery", "Route_66" }
+                },
+                new Hero
+                {
+                    Name = "Zenyatta",
+                    Role = Role.Support,
+                    Counters = new List<string> { "Winston", "D.Va", "Hazard", "Doomfist", "Zarya", "Tracer", "Sombra", "Ashe", "Echo", "Bastion", "Moira", "Ana", "Kiriko" },
+                    Synergies = new List<string> { "Reinhardt", "Roadhog", "Orisa", "D.Va", "Winston", "Reaper", "Ashe", "Mei", "Moria", "Kiriko" },
+                    PlaystyleTag = PlaystyleTag.Hybrid,
+                    MapPreference = new List<string> { "Shambali_Monastery", "Blizzard_World", "Kings_Row", "Midtown", "Esperanca", "Runasapi", "Colosseo" }
+                }
+//Support End
             };
         }
     }
